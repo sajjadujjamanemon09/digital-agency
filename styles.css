@@ -31,27 +31,67 @@
     align-items: center;
 }
 
-.primary{
+.primary {
     color: red;
 }
 
-.title{
+.title {
     font-size: 55px;
     font-weight: bold;
     color: white;
 }
 
-.description{
+.description {
     color: white;
     padding: 10px;
     width: 50%;
     margin: auto;
 }
-.btn{
+
+.btn {
     padding: 12px 20px;
     border: none;
 }
-.bg-primary{
+
+.bg-primary {
     background-color: red;
     color: white;
+}
+
+.service-container {
+    height: 100vh;
+    background-image: url("./image/footer-bg.png"), linear-gradient(#363535, #383535);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.icon {
+    width: 70px;
+    margin-bottom: 20px;
+}
+
+.box{
+    text-align: center;
+    width: 130px;
+    height: 150px;
+    padding: 50px;
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+}
+
+.service-description{
+    width: 50%;
+}
+
+.all-box2{
+    display: flex;
+    gap: 3px;
+    margin-top: 5px;
 }
