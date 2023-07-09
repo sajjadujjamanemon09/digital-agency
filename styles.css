@@ -88,10 +88,38 @@
 
 .service-description{
     width: 50%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.line{
+    padding-left: 10px;
 }
 
 .all-box2{
     display: flex;
     gap: 3px;
     margin-top: 5px;
+}
+
+.author-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    /* padding-top: 20px; */
+    margin-top: 10px;
+}
+
+.author-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-right: 1px solid red;
+    padding-right: 20px;
 }
